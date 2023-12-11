@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    background-color: #F5EBD2;
+    text-align: center;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-bar ul li{
+    width: 175px;
+    margin: 15px;
+    padding: 15px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #3F459B;
+}
+
+.nav-bar ul li:hover{
+    background: black;/*renk belirlenecek veya border verilebilir*/
+    border-radius: 10px;
+}
+
+.nav-bar .fa-solid{
+    margin-right: 6px;
+}
+.nav-bar .fa-regular{
+    margin-right: 6px;
+}
+.altmenu1{
+    display: none;
+}
+.nav-bar ul li:hover .altmenu1{
+    display: block;
+    position: absolute; /*sadece bulunduğu divi kapsar*/
+    background: #F5EBD2;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 13px;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+.nav-bar ul li:hover .altmenu1 ul{
+    display: block;
+    
+}
+
+.nav-bar ul li:hover .altmenu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #3F459B;
+    background: transparent;
+    border-radius: 0;
+}
