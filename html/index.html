@@ -4,9 +4,18 @@
         <title>Dönemsel</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <script src="../js/script.js" defer></script>
+        <style>
+            img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        </style>
     </head>
     <body>
-        <div class="nav-bar">
+        <!--<div id="dark"></div>-->
+        <div class="nav-bar dark-mode-element">
             <ul>
                 <li class="hoverbar"><a href="index.html"><i class="fa-solid fa-house" style="color: #3f459b;"></i>Ana Sayfa</a></li>
 
@@ -44,11 +53,139 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href=""><i class="fa-solid fa-phone" style="color: #3f459b;"></i>İletişim</a></li>
+                <li><a href="iletisim.html"><i class="fa-solid fa-phone" style="color: #3f459b;"></i>İletişim</a></li>
             </ul>
         </div>
-          <div id="#anaresim"><img src="../img/arkaplan.jpg"></div>
-          
+
+        <img src="../img/arkaplan.jpg">
+
+        <section class="donemler">
+            <h2>Dönemler</h2>
+            <div class="box-container">
+                <a href="donemler/2010-2020.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>2010-2020</h3>
+                        <div class="aciklama">Çeşitlilik, Yenilik ve Uluslararası Etkileşim</div>
+                        <img src="../img/2010-2020.jpeg" alt=""> 
+                    </div>
+                </div>
+                </a>
+
+                <a href="donemler/2000-2010.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>2000-2010</h3>
+                        <div class="aciklama"> Pop çeşitliliği, Rock yükselişi, Global etkileşim.</div>
+                        <img src="../img/2000-2010.jpeg" alt="">
+                    </div>
+                </div>
+                </a>
+
+                <a href="donemler/1990-2000.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>1990-2000</h3>
+                        <div class="aciklama">Arabeskten Pop'a evrim, Yeni nesil sesler.</div>
+                        <img src="../img/1990-2000.jpeg" alt="">
+                    </div>
+                </div>
+                </a>
+
+                <a href="donemler/1980-1990.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>1980-1990</h3>
+                        <div class="aciklama">Rock mücadeleci tonlar, Türk Halk Müziği revizyonu.</div>
+                        <img src="../img/1980-1990.jpeg" alt="">
+                    </div>
+                </div>
+                </a>
+
+                <a href="donemler/1970-1980.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>1970-1980</h3>
+                        <div class="aciklama">Anadolu Rock yükselişi, Sosyal temalar hakim.</div>
+                        <img src="../img/1970-1980.jpeg" alt="">
+                    </div>
+                </div>
+                </a>
+
+                <a href="donemler/1960-1970.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>1960-1970</h3>
+                        <div class="aciklama">Türk Sanat Müziği, Anadolu Halk Melodileri.</div>
+                        <img src="../img/2010-2020.jpg" alt="">
+                    </div>
+                </div>
+                </a>
+            </div>
+        </section>
+        
+
+        <img src="../img/resim1.jpg" alt="">
+
+        <section class="donemler">
+            <h2>Sanatçılar/Gruplar</h2>
+            <div class="box-container">
+
+                <a href="sanatcilar-gruplar/ErkinKoray.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>Erkin Koray</h3>
+                        <div class="aciklama">Lorem ipsum dolor sit amet.asdasdasdsadasd</div>
+                        <img src="../img/erkin-koray.jpg" alt=""> 
+                    </div>
+                </div>
+                </a>
+
+                <a href="sanatcilar-gruplar/Duman.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>Duman</h3>
+                        <div class="aciklama">Lorem ipsum dolor sit amet.asdasdasdsadasd</div>
+                        <img src="../img/duman.jpg" alt="">
+                    </div>
+                </div>
+                </a>
+
+                <a href="sanatcilar-gruplar/AsikVeysal.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>Aşık Veysel</h3>
+                        <div class="aciklama">Lorem ipsum dolor sit amet.asdasdasdsadasd</div>
+                        <img src="../img/asik-veysel.jpeg" alt="">
+                    </div>
+                </div>
+                </a>
+
+                <a href="sanatcilar-gruplar/ZekiMuren.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>Zeki Müren</h3>
+                        <div class="aciklama">Lorem ipsum dolor sit amet.asdasdasdsadasd</div>
+                        <img src="../img/zeki-muren.jpg" alt="">
+                    </div>
+                </div>
+                </a>
+
+                <a href="sanatcilar-gruplar/Adamlar.html">
+                <div class="box">
+                    <div class="box-head">
+                        <h3>Adamlar</h3>
+                        <div class="aciklama">Lorem ipsum dolor sit amet.asdasdasdsadasd</div>
+                        <img src="../img/adamlar.jpg" alt="">
+                    </div>
+                </div>
+                </a>
+
+                
+            </div>
+        </section>
+        <button onclick="scrollToTop()" id="scrollTopBtn" title="Yukarı Çık">&#9650;</button>
+
     </body>
     
 </html>

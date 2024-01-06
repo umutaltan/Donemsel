@@ -4,9 +4,19 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+body{
+    background: #447C9D;
+
+}
+
 .nav-bar{
     background-color: #F5EBD2;
     text-align: center;
+    border-bottom: black 1px solid;
 }
 
 .nav-bar ul{
@@ -25,7 +35,7 @@
 }
 
 .nav-bar ul li:hover{
-    background: black;/*renk belirlenecek veya border verilebilir*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
@@ -61,3 +71,132 @@
     background: transparent;
     border-radius: 0;
 }
+
+.donemler section{
+    border-bottom:solid #3F459B 1px;
+    padding: 1px;
+    display: block;
+}
+
+section h2{
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #F5EBD2;
+}
+
+.donemler .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
+    padding-bottom:5px;
+    padding-top: 5px;
+    background-color: #F5EBD2;
+    
+}
+.donemler h2{
+    background: #F5EBD2;
+    color: #3F459B;
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.donemler .box-container .box{
+    padding-left:15px;
+    padding-right: 15px;
+
+}
+
+.donemler .box-container .box:hover{ 
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.donemler .box-container .box img{
+    width: 100%;
+    object-fit:cover;
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+}
+.donemler .box-container .box img:hover{
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+}
+
+.donemler .box-container .box h3{
+    text-align: center;
+    color: #3F459B;
+    font-size: 150%;
+    margin-top:15px;
+}
+.donemler .box-container .box div{
+    color: #3F459B;
+}
+
+.sayfa-baslik{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-bottom:10px ;
+}
+
+.donemler-baslik{
+    font-size: 30px;
+    font-style: bold;
+    color: black;
+    margin-bottom:10px;
+}
+
+.donemler-paragraf{
+    color: black;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#scrollTopBtn:hover {
+    background-color: #0056b3;
+}
+
+.donemlerbilgi {
+    background-color: #F5EBD2;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+.donemlerbilgi img{
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+}
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#dark {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle at 50% 50%,
+      transparent,
+      rgba(0, 0, 0, 0.9) 200px,
+      black
+    );
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
