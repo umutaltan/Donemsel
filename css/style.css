@@ -200,3 +200,48 @@ section h2{
     top: 0;
     left: 0;
   }
+
+
+  .contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 8% auto;
+  max-width: 500px;
+  opacity: 0.8; 
+  transition: transform 0.5s ease;
+}
+
+.contact-form:hover{
+    opacity: 0.9;
+    transition: transform 0.5s ease;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  background-color: #aa9a74;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+.form-button:hover {
+  background-color: #514c41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.btnbtn{
+    text-align: center;
+    margin-top: 10px;
+
+}
