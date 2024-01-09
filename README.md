@@ -1,7 +1,6 @@
-İsim: Umut
-Soy isim: Altan
-Numara: 22290323
-Github: 
+İsim: Umut  
+Soy isim: Altan  
+Numara: 22290323  
 
 Sitenin amacı: Türkiye’deki belirli dönemlerdeki popüler müzik türlerini ve sanatçı/grupları hakkında bilgilendirme yapmayı hedeflemiştir.  
 
